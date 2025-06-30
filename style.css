@@ -3,8 +3,8 @@
   /* duration */
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
-  width: 280px;
-  margin-left: 280px;
+  width: 350px;
+  margin-left: 350px;
 }
 body {
   font-family: "Microsoft JhengHei", "微軟正黑體", "PingFang TC", sans-serif;
