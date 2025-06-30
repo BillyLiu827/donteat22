@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
   <title>TwoTwo之書</title>
-<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-  <div id="hedlinecontainer">
-    <div id="shine">不可以吃TwoTwo💞</div>
-  </div>
-  
-
-  <div class="gallery">
+  <div class="flipbook">
+    <div class="hard">不可以吃TwoTwo💞 <small>~ HankTheTank</small></div>
+    <div class="hard"></div>
+    <div>
+      <small>不可以吃TwoTwo💞</small>
+      <small>多謝每一位第二分組成員</small>
+    </div>
+<div class="gallery">
     <img src="image\image1.png">
     <img src="image\image2.jpeg">
     <img src="image\image3.jpeg">
@@ -49,7 +52,16 @@
     <img src="image\image33.jpeg">
     <img src="image\image34.jpeg">
     <img src="image\image35.jpeg">
+    </div>
+    <div class="hard"></div>
+    <div class="hard">Thank You <small>~ HankTheTank</small></div>
   </div>
 
+  <script src="jquery.js"></script>
+  <script src="turn.js"></script>
+  <script>
+    $(".flipbook").turn();
+  </script>
 </body>
 </html>
+
