@@ -1,10 +1,4 @@
-@media (max-width: 600px) {
-  .gallery {
-    --d: 60s; /* 保持与桌面相同时长 */
-    width: 150px;
-    /* 其他尺寸调整保留 */
-  }
-}
+
 .gallery {
   --d: 60s;
   /* duration */
@@ -211,10 +205,22 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  #shine {
-  font-size: 22px;
-}
+/* 修改媒体查询部分 */
+@media (max-width: 600px) {
+  .gallery {
+    --d: 35s; /* 保持总时长一致 */
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+  }
+  
+  /* 减小动画幅度适应小屏幕 */
+  @keyframes flip {
+    10% {
+      transform: rotateY(-120deg) translateZ(20px);
+    }
+  }
+  
 #hedlinecontainer {
   display: flex;
   justify-content: center;
