@@ -1,12 +1,12 @@
 @media (max-width: 600px) {
   .gallery {
-    --d: 35s; /* 保持与桌面相同时长 */
+    --d: 60s; /* 保持与桌面相同时长 */
     width: 150px;
     /* 其他尺寸调整保留 */
   }
 }
 .gallery {
-  --d: 40s;
+  --d: 60s;
   /* duration */
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
